@@ -1,7 +1,7 @@
 // index.js
 
 const {getSeedUrls} = require('./services/urlSeeder');
-const { addUrl, getAndRemoveNextUrl, getQueue } = require('./services/urlStorage');
+const { addUrl, getNextUrl } = require('./services/urlStorage');
 
 const seedUrls = getSeedUrls();
 
